@@ -1,8 +1,13 @@
 /**
  * This source file is subject to the license that is bundled with this package in the file LICENSE.
  */
+
+
 import java.util.ArrayList;
 import java.util.List;
+
+
+@SuppressWarnings("all")
 
 public class Author extends Person {
     private List books;
@@ -17,19 +22,23 @@ public class Author extends Person {
      */
     @Deprecated
     public List<String> getBooks() {
+
         return books;
     }
 
     public List<String> publishedBooks() {
+
         return books;
     }
 
     public void addBook(String book) {
+
         books.add(book);
     }
 
-    @Override
+    //@Override
     public String sortName() {
+
         return String.format("%s, %s", lastName, firstName);
     }
 }
