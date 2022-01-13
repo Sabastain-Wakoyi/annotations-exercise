@@ -20,7 +20,7 @@ executed by the JVM.
 You will need to run the following command several times for the exercises in this lesson.
 
 ```
-
+javac -d out/ src/*
 ```
 
 In the previous command, the option `-d` specifies the directory where the `.class` files are going
